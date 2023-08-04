@@ -1,0 +1,22 @@
+body {
+  background-color: blueviolet;
+}
+/* Cascata: quando há dois ou mais declarações a útlima será mais relevantes */
+
+/* especifidade: o CSS dá preferência para a seguinte ordem de especificidade id, class, tag ou elemento */
+#tituloprincipal {
+  background-color: antiquewhite;
+  color: brown;
+}
+
+.subtitulo {
+    color: chartreuse;
+}
+
+p {
+    background-color: bisque;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
