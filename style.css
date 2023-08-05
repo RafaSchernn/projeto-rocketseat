@@ -34,7 +34,8 @@ body * {
   color: var(--cordotexto);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin-top: 56px;
   margin-right: auto;
   margin-left: auto;
